@@ -1,0 +1,10 @@
+What the app will be about:
+
+Allows you to see where pictures of landmarks were taken, and additional info.
+FIRST: Make an android app.
+    1. It will be very simple, no more than 500 lines of code. It will have 1 original button to upload the photo. When pressed, 
+       it will bring up either an error message, or another button prompting to open the location in the map.
+    2. UPDATE: Add internal map, with data on the landmark. Also be able to find oline pictures by landmark.
+
+SECOND: Make an iOS app
+    1. 
