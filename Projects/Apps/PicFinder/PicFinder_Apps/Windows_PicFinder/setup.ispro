@@ -1,0 +1,43 @@
+; InstallSimple project
+
+[Setup]
+WindowTitle=Setup PicFinder 1.1.2
+ProductName=PicFinder
+
+[Graphics]
+SplashScreen=
+SplashScreenDelay=3
+Header=
+HeaderJustify=Right
+HeaderFontColor=0
+WizardBitmap=
+WizardFontColor=0
+
+[FirstMessage]
+Welcome to the PicFinder installer wizard! This will install PicFinder for only you.
+[LastMessage]
+Thank you for using our software.
+
+[LicenseAgreement]
+
+[SetupFiles]
+SourceFolder=C:\Users\smsag_000\Documents\Code_Stuff\Projects\Apps\PicFinder\Python_PicFinder\dist
+SpecialFolder=User Profile
+SetupPath=PicFinder
+SetupFile=C:\Users\smsag_000\Documents\Code_Stuff\Projects\Apps\PicFinder\PicFinder_Apps\Windows_PicFinder\setup 1.1.3.exe
+
+[Shortcuts]
+ProgramGroup=PicFinder
+PicFinder.exe=dmp
+Uninstall.exe=m
+
+[Registry]
+
+[Requirements]
+OperatingSystem=WinAll
+NetFramework=0
+NetFrameworkLink=http://www.microsoft.com/en-us/download/details.aspx?id=17718
+AdminRights=0
+
+[AfterInstalling]
+Reboot=0

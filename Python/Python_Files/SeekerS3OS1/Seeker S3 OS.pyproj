@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2482d983-6497-42f1-896e-419579aa57bb</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Seeker_S3_OS.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Seeker S3 OS</Name>
+    <RootNamespace>Seeker S3 OS</RootNamespace>
+    <IsWindowsApplication>True</IsWindowsApplication>
+    <PublishUrl>C:\Users\smsag_000\Documents\Code_Stuff\Python\Python_Files\SeekerS3OS1</PublishUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="admin.py" />
+    <Compile Include="base.py" />
+    <Compile Include="Calculator.py" />
+    <Compile Include="Python.py" />
+    <Compile Include="Seeker_S3_OS.py" />
+    <Compile Include="Settings.py" />
+    <Compile Include="Shell.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="user1.txt" />
+    <Content Include="user1pass.txt" />
+    <Content Include="user2.txt" />
+    <Content Include="user2pass.txt" />
+    <Content Include="__pycache__\base.cpython-35.pyc" />
+    <Content Include="__pycache__\Calculator.cpython-35.pyc" />
+    <Content Include="__pycache__\Python.cpython-35.pyc" />
+    <Content Include="__pycache__\Settings.cpython-35.pyc" />
+    <Content Include="__pycache__\Shell.cpython-35.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="__pycache__\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

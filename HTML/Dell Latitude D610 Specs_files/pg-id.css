@@ -1,0 +1,190 @@
+/* Dell PGID A03 */
+<STYLE TYPE="text/css">
+
+
+
+
+P  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+BODY  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+TABLE  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+TH  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+TR  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+TD  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+OL  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+UL  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+LI  {
+	font-size : 9pt;
+	font-family : Verdana, Arial;
+}
+
+H1  {
+	font-size : 18pt;
+	font-family : Verdana, Arial;
+	color : Navy;
+	margin-bottom: 2;
+}
+
+H2  {
+	font-size : 16pt;
+	font-family : Verdana, Arial;
+	color : Navy;
+	margin-top : 20pt;
+}
+
+H2.title  {
+	font-size : 16pt;
+	font-family : Verdana, Arial;
+	color : Navy;
+margin-bottom: 2;
+}
+
+H3  {
+	font-size : 14pt;
+	font-family : Verdana, Arial;
+	margin-top : 16pt;
+	color : Navy;
+
+}
+
+H4  {
+	font-size : 12pt;
+	font-family : Verdana, Arial;
+	margin-top : 16pt;
+	color : Navy;
+
+}
+
+H5  {
+	font-size : 10pt;
+	font-family : Verdana, Arial;
+	margin-top : 16pt;
+	color : Navy;
+
+}
+
+p.close  {
+	margin-top : 1;
+	margin-bottom : 2;
+}
+
+p.closeindent  {
+	margin-top : 1;
+	margin-bottom : 2;
+	margin-left : 0.25in;
+}
+
+p.copyright  {
+	font-size : 7.5pt;
+}
+
+p.FigureTableTitle  {
+	font-weight : bold;
+	font-size : 10pt;
+	
+}
+
+p.h1TOC  {
+	margin-top : 14;
+	margin-bottom : 2;
+	font-size : 13pt;
+	font-weight : bold;
+}
+
+p.h2TOC {
+	margin-top : 2;
+	margin-bottom : 5;
+	margin-left : 0.25in;
+}
+
+p.indent {margin-left : 0.4in;}
+
+
+
+p.indentsub  {
+	margin-left : 0.825in;
+}
+
+
+
+p.minitoc  {
+	margin-top : 0;
+	margin-bottom : 7;
+}
+
+p.red  {color : Red;}
+
+
+p.tableindent  {
+	margin-left : 0.425in;
+}
+
+p.tableindentsub  {
+	margin-left : 0.4in;
+}
+
+p.screen  {
+	font-family : "Courier New";
+}
+
+p.screenindent  {
+	font-family : "Courier New";
+	margin-left : 0.43in;
+}
+
+p.title	 {
+	color: Navy;
+	font-weight : bold;
+	margin-top: 1;
+	font-size : 10pt;	
+}
+
+p.upper  {
+	text-transform : uppercase;
+}
+
+table.indent  {
+	margin-left : 0.4in;
+}
+
+.screen  {
+	font-family : "Courier New";
+}
+
+.notes  {
+	font-weight : bold;
+	color : Navy;
+}
+
+

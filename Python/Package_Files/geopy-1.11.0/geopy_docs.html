@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)https://pypi.python.org/pypi/geopy -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+      
+      <title>geopy 1.11.0 : Python Package Index</title>
+      <meta content="geocode geocoding gis geographical maps earth distance">
+      <meta content="Python Geocoding Toolbox">
+       <link rel="alternate" type="application/rss+xml" title="RSS: 40 latest updates" href="https://pypi.python.org/pypi?:action=rss">
+       <link rel="alternate" type="application/rss+xml" title="RSS: 40 newest packages" href="https://pypi.python.org/pypi?:action=packages_rss">
+       <link rel="stylesheet" media="screen" href="./geopy_docs_files/screen-switcher-default.css" type="text/css">
+       <link media="screen" href="./geopy_docs_files/netscape4.css" type="text/css" rel="stylesheet">
+       <link media="print" href="./geopy_docs_files/print.css" type="text/css" rel="stylesheet">
+       <link media="screen" href="./geopy_docs_files/largestyles.css" type="text/css" rel="alternate stylesheet" title="large text">
+       <link media="screen" href="./geopy_docs_files/defaultfonts.css" type="text/css" rel="alternate stylesheet" title="default fonts">
+       <link rel="stylesheet" media="screen" href="./geopy_docs_files/docutils.css" type="text/css">
+       <link rel="stylesheet" media="screen" href="./geopy_docs_files/pygments.css" type="text/css">
+
+       <!-- allow pypi to override the standard pydotorg/docutils/etc. styles -->
+       <link rel="stylesheet" href="./geopy_docs_files/pypi.css" type="text/css">
+       <link media="screen" rel="stylesheet" href="./geopy_docs_files/pypi-screen.css" type="text/css">
+
+       
+       <meta name="google-site-verification" content="NSgF04qslVV4P7nymxJDSkWVK09zfdPTxgZfU3dNSoQ">
+       
+
+       
+ <meta name="keywords" content="geocode geocoding gis geographical maps earth distance">
+ <meta name="description" content="Python Geocoding Toolbox">
+ <link rel="meta" title="DOAP" type="application/rdf+xml" href="https://pypi.python.org/pypi?:action=doap&amp;name=geopy&amp;version=1.11.0">
+ <style type="text/css">
+  table.form th {white-space: pre;}
+ </style>
+
+
+       <style type="text/css">
+       </style>
+    </head>
+    <body>
+     
+
+      <!--  Logo  -->
+      <h1 id="logoheader">
+       <a accesskey="1" href="http://www.python.org/" id="logolink">
+          <img src="./geopy_docs_files/python-logo.png" alt="homepage" border="0" id="logo">
+       </a>
+      </h1>
+      <!--  Skip to Navigation  -->
+      <div class="skiptonav"><a accesskey="2" href="https://pypi.python.org/pypi/geopy#left-hand-navigation"><img src="./geopy_docs_files/trans.gif" alt="skip to navigation" border="0" id="skiptonav"></a></div>
+      <div class="skiptonav"><a accesskey="3" href="https://pypi.python.org/pypi/geopy#content-body"><img src="./geopy_docs_files/trans.gif" alt="skip to content" border="0" id="skiptocontent"></a></div>
+      <!--  Utility Menu  -->
+
+      <div id="utility-menu">
+        <!--  Search Box  -->
+        <div id="searchbox">
+          <form id="searchform" method="get" name="searchform" action="https://pypi.python.org/pypi">
+            <input type="hidden" name=":action" value="search">
+            <div id="search">
+              <input class="input-text" id="term" name="term" autofocus="autofocus">
+              <input class="input-button" type="submit" name="submit" value="search" id="submit">
+            </div>
+          </form>
+        </div>
+<!-- XXX: reinstate this       <div id="screen-switcher"></div> -->
+      </div>
+      <div id="left-hand-navigation">
+
+        <!--  Main Menu NEED LEVEL TWO HEADER AND FOOTER -->
+        <div id="menu">
+          <ul class="level-one">
+            <li class="selected">
+              <a class="selected" href="https://pypi.python.org/pypi">Package Index</a>
+
+              <ul class="level-two">
+
+                
+                  <li class=""><a class="" href="https://pypi.python.org/pypi?%3Aaction=browse">Browse&nbsp;packages</a></li>
+                
+                
+                  <li class=""><a class="" href="https://pypi.python.org/pypi?%3Aaction=submit_form">Package&nbsp;submission</a></li>
+                
+                
+                  <li class=""><a class="" href="https://pypi.python.org/pypi?%3Aaction=list_classifiers">List&nbsp;trove&nbsp;classifiers</a></li>
+                
+                
+                  <li class=""><a class="" href="https://pypi.python.org/pypi?%3Aaction=rss">RSS&nbsp;(latest&nbsp;40&nbsp;updates)</a></li>
+                
+                
+                  <li class=""><a class="" href="https://pypi.python.org/pypi?%3Aaction=packages_rss">RSS&nbsp;(newest&nbsp;40&nbsp;packages)</a></li>
+                
+        <li><a href="http://wiki.python.org/moin/CheeseShopTutorial">PyPI Tutorial</a></li>
+        <li><a href="https://pypi.python.org/security">PyPI Security</a></li>
+        <li><a href="http://sourceforge.net/tracker/?group_id=66150&amp;atid=513504">PyPI Support</a></li>
+        <li><a href="https://github.com/pypa/pypi-legacy/issues">PyPI Bug Reports</a></li>
+        <li><a href="http://www.python.org/sigs/distutils-sig/">PyPI Discussion</a></li>
+        <li><a href="http://wiki.python.org/moin/CheeseShopDev">PyPI Developer Info</a></li>
+       </ul>
+
+            </li>
+
+
+
+
+            <li class=""><a href="http://www.python.org/about" class="" title="About The Python Language">About</a>
+            </li><li class=""><a href="http://www.python.org/news" class="" title="">News</a>
+            </li><li class=""><a href="http://www.python.org/doc" class="" title="">Documentation</a>
+            </li><li class=""><a href="http://www.python.org/download" title="">Download</a>
+
+
+            </li><li class=""><a href="http://www.python.org/community" class="" title="">Community</a>
+            </li><li class=""><a href="http://www.python.org/psf" class="" title="Python Software Foundation">Foundation</a>
+            </li><li class=""><a href="http://www.python.org/dev" class="" title="Python Core Language Development">Core Development</a>
+          </li>
+          </ul>
+        </div>
+
+      </div>
+      <div id="content-body">
+        <div id="body-main">
+          <div id="content">
+
+            <div id="breadcrumb">
+              <a href="https://pypi.python.org/pypi">Package Index</a>
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="https://pypi.python.org/pypi/geopy">geopy</a>
+              
+              
+                <span class="breadcrumb-separator">&gt;</span>
+                <a href="https://pypi.python.org/pypi/geopy/1.11.0">1.11.0</a>
+              
+
+            </div>
+
+            <div id="document-floating">
+
+            <div id="document-navigation" style="overflow-y: auto; max-height: 15em; overflow-x: hidden;">
+		
+                  <h4>Not Logged In</h4>
+
+                  <ul>
+		    
+                    <li><a href="https://pypi.python.org/pypi?%3Aaction=login_form">Login</a></li>
+                    <li><a href="https://pypi.python.org/pypi?%3Aaction=register_form">Register</a></li>
+                    <li><a href="https://pypi.python.org/pypi?%3Aaction=forgotten_password_form">Lost Login?</a></li>
+		    <li>Use <a href="https://pypi.python.org/pypi?:action=openid">OpenID</a>
+                      
+                        <a style="border: none;" href="https://pypi.python.org/pypi?:action=login&amp;provider=Launchpad"><img width="16" height="16" alt="Launchpad" src="./geopy_docs_files/launchpad.png" title="Launchpad"></a>
+                      
+                    </li>
+                    <li><a href="https://pypi.python.org/google_login">Login with Google<img width="16" height="16" src="./geopy_docs_files/favicon.ico" title="Google Login" alt="Google Login"></a></li>
+                  </ul>
+
+		
+
+		
+
+                <div id="statusdiv"><br><h4 id="statusbox">Status</h4>
+<li><a href="http://status.python.org/">Nothing to report</a></li></div>
+            </div>
+        </div>
+        
+
+
+            <div class="section">
+              <h1>geopy 1.11.0</h1>
+
+              
+<div id="download-button">
+ 
+ <a class="button green" style="float:right;" href="https://pypi.python.org/pypi/geopy#downloads">Downloads ↓</a>
+</div>
+
+<p style="font-style: italic">Python Geocoding Toolbox</p>
+
+
+
+
+
+
+
+
+<p>geopy is a Python 2 and 3 client for several popular geocoding web
+services.</p>
+<p>geopy makes it easy for Python developers to locate the coordinates of
+addresses, cities, countries, and landmarks across the globe using
+third-party geocoders and other data sources.</p>
+<p>geopy includes geocoder classes for the <a href="https://wiki.openstreetmap.org/wiki/Nominatim" rel="nofollow">OpenStreetMap
+Nominatim</a>, <a href="http://resources.arcgis.com/en/help/arcgis-rest-api/" rel="nofollow">ESRI
+ArcGIS</a>,
+<a href="https://developers.google.com/maps/documentation/geocoding/" rel="nofollow">Google Geocoding API
+(V3)</a>,
+<a href="http://developer.baidu.com/map/webservice-geocoding.htm" rel="nofollow">Baidu
+Maps</a>, <a href="http://www.microsoft.com/maps/developers/web.aspx" rel="nofollow">Bing
+Maps API</a>, <a href="https://developer.yahoo.com/boss/geo/docs/" rel="nofollow">Yahoo!
+PlaceFinder</a>,
+<a href="http://api.yandex.com/maps/doc/intro/concepts/intro.xml" rel="nofollow">Yandex</a>,
+<a href="http://api.ign.fr/tech-docs-js/fr/developpeur/search.html" rel="nofollow">IGN
+France</a>,
+<a href="http://www.geonames.org/" rel="nofollow">GeoNames</a>,
+<a href="http://navidata.pl/" rel="nofollow">NaviData</a>,
+<a href="http://developer.mapquest.com/web/products/open/geocoding-service" rel="nofollow">OpenMapQuest</a>,
+<a href="http://what3words.com/api/reference" rel="nofollow">What3Words</a>,
+<a href="http://geocoder.opencagedata.com/api.html" rel="nofollow">OpenCage</a>,
+<a href="https://smartystreets.com/products/liveaddress-api" rel="nofollow">SmartyStreets</a>,
+<a href="http://geocoder.us/" rel="nofollow">geocoder.us</a>, and
+<a href="https://www.geocodefarm.com/" rel="nofollow">GeocodeFarm</a> geocoder services. The
+various geocoder classes are located in
+<a href="https://github.com/geopy/geopy/tree/master/geopy/geocoders" rel="nofollow">geopy.geocoders</a>.</p>
+<p>geopy is tested against CPython 2.7, CPython 3.2, CPython 3.4, PyPy, and
+PyPy3.</p>
+<p>© geopy contributors 2006-2015 (see AUTHORS) under the <a href="https://github.com/geopy/geopy/blob/master/LICENSE" rel="nofollow">MIT
+License</a>.</p>
+<div id="installation">
+<h2>Installation</h2>
+<p>Install using <a href="http://www.pip-installer.org/en/latest/" rel="nofollow">pip</a> with:</p>
+<pre>pip install geopy
+</pre>
+<p>Or, <a href="https://pypi.python.org/pypi/geopy" rel="nofollow">download a wheel or source archive from
+PyPI</a>.</p>
+</div>
+<div id="geocoding">
+<h2>Geocoding</h2>
+<p>To geolocate a query to an address and coordinates:</p>
+<pre>&gt;&gt;&gt; from geopy.geocoders import Nominatim
+&gt;&gt;&gt; geolocator = Nominatim()
+&gt;&gt;&gt; location = geolocator.geocode("175 5th Avenue NYC")
+&gt;&gt;&gt; print(location.address)
+Flatiron Building, 175, 5th Avenue, Flatiron, New York, NYC, New York, ...
+&gt;&gt;&gt; print((location.latitude, location.longitude))
+(40.7410861, -73.9896297241625)
+&gt;&gt;&gt; print(location.raw)
+{'place_id': '9167009604', 'type': 'attraction', ...}
+</pre>
+<p>To find the address corresponding to a set of coordinates:</p>
+<pre>&gt;&gt;&gt; from geopy.geocoders import Nominatim
+&gt;&gt;&gt; geolocator = Nominatim()
+&gt;&gt;&gt; location = geolocator.reverse("52.509669, 13.376294")
+&gt;&gt;&gt; print(location.address)
+Potsdamer Platz, Mitte, Berlin, 10117, Deutschland, European Union
+&gt;&gt;&gt; print((location.latitude, location.longitude))
+(52.5094982, 13.3765983)
+&gt;&gt;&gt; print(location.raw)
+{'place_id': '654513', 'osm_type': 'node', ...}
+</pre>
+</div>
+<div id="measuring-distance">
+<h2>Measuring Distance</h2>
+<p>Geopy can calculate geodesic distance between two points using the
+<a href="https://en.wikipedia.org/wiki/Vincenty&#39;s_formulae" rel="nofollow">Vincenty
+distance</a> or
+<a href="https://en.wikipedia.org/wiki/Great-circle_distance" rel="nofollow">great-circle
+distance</a>
+formulas, with a default of Vincenty available as the class
+<tt>geopy.distance.distance</tt>, and the computed distance available as
+attributes (e.g., <tt>miles</tt>, <tt>meters</tt>, etc.).</p>
+<p>Here’s an example usage of Vincenty distance:</p>
+<pre>&gt;&gt;&gt; from geopy.distance import vincenty
+&gt;&gt;&gt; newport_ri = (41.49008, -71.312796)
+&gt;&gt;&gt; cleveland_oh = (41.499498, -81.695391)
+&gt;&gt;&gt; print(vincenty(newport_ri, cleveland_oh).miles)
+538.3904451566326
+</pre>
+<p>Using great-circle distance:</p>
+<pre>&gt;&gt;&gt; from geopy.distance import great_circle
+&gt;&gt;&gt; newport_ri = (41.49008, -71.312796)
+&gt;&gt;&gt; cleveland_oh = (41.499498, -81.695391)
+&gt;&gt;&gt; print(great_circle(newport_ri, cleveland_oh).miles)
+537.1485284062816
+</pre>
+</div>
+<div id="documentation">
+<h2>Documentation</h2>
+<p>More documentation and examples can be found at <a href="http://geopy.readthedocs.org/en/latest/" rel="nofollow">Read the
+Docs</a>.</p>
+</div>
+
+
+<a name="downloads">&nbsp;</a>
+<table class="list" style="margin-bottom: 10px;">
+<tbody><tr>
+  <th>File</th>
+  <th>Type</th>
+  <th>Py Version</th>
+  <th>Uploaded on</th>
+  <th style="text-align: right;">Size</th>
+</tr>
+
+<tr class="odd">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/e0/fd/d1b3225959939907a1a87c3623a021742b3b9ef5db35c15cb916e18de42c/geopy-1.11.0-py2.py3-none-any.whl#md5=74cd47c6c34b2f25d3793303ed7b687b">geopy-1.11.0-py2.py3-none-any.whl</a>
+      (<a title="MD5 Digest" href="https://pypi.python.org/pypi?:action=show_md5&amp;digest=74cd47c6c34b2f25d3793303ed7b687b">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/e0/fd/d1b3225959939907a1a87c3623a021742b3b9ef5db35c15cb916e18de42c/geopy-1.11.0-py2.py3-none-any.whl.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Python Wheel
+  </td>
+  <td>
+    any
+  </td>
+  <td>2015-08-31</td>
+  <td style="text-align: right;">65KB</td>
+
+</tr>
+<tr class="even">
+
+    <td>
+    <span style="white-space: nowrap;">
+      <a href="https://pypi.python.org/packages/19/d0/7128146692fb6facb956b07c40f73d7975b9a36bd8381a0cdb0c6a79a0b6/geopy-1.11.0.tar.gz#md5=b73445dc0069550bbd2b09162f7339b3">geopy-1.11.0.tar.gz</a>
+      (<a title="MD5 Digest" href="https://pypi.python.org/pypi?:action=show_md5&amp;digest=b73445dc0069550bbd2b09162f7339b3">md5</a>,
+       <a title="PGP Signature" href="https://pypi.python.org/packages/19/d0/7128146692fb6facb956b07c40f73d7975b9a36bd8381a0cdb0c6a79a0b6/geopy-1.11.0.tar.gz.asc">pgp</a>)
+    </span>
+    
+        </td>
+  <td style="white-space: nowrap;">
+    Source
+  </td>
+  <td>
+    
+  </td>
+  <td>2015-08-31</td>
+  <td style="text-align: right;">86KB</td>
+
+</tr>
+
+<tr><td id="last" colspan="6"></td></tr>
+  </tbody></table>
+
+
+
+<ul class="nodot">
+ <li>
+  <strong>Author:</strong>
+  <span>GeoPy Contributors</span>
+ </li>
+
+ 
+
+ 
+
+<!-- The <th> elements below are a terrible terrible hack for setuptools -->
+ <li>
+  <strong>Home Page:</strong>
+  <!-- <th>Home Page -->
+  <a href="https://github.com/geopy/geopy">https://github.com/geopy/geopy</a>
+ </li>
+
+
+ 
+
+ <li>
+  <strong>Download URL:</strong>
+  <!-- <th>Download URL -->
+  <a href="https://github.com/geopy/geopy/archive/1.11.0.tar.gz">https://github.com/geopy/geopy/archive/1.11.0.tar.gz</a>
+ </li>
+
+
+ <li>
+  <strong>Keywords:</strong>
+  <span>geocode geocoding gis geographical maps earth distance</span>
+ </li>
+
+ <li>
+  <strong>License:</strong>
+  
+  
+  <span>MIT</span>
+  
+ </li>
+
+ 
+
+<!-- TODO: add link to products in follow dependencies... -->
+ 
+ 
+ 
+
+ <li>
+  <strong>Categories</strong>
+  <ul class="nodot">
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=5">Development Status :: 5 - Production/Stable</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=30">Intended Audience :: Developers</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=40">Intended Audience :: Science/Research</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=69">License :: OSI Approved :: MIT License</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=156">Operating System :: OS Independent</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=214">Programming Language :: Python</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=527">Programming Language :: Python :: 2</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=532">Programming Language :: Python :: 2.7</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=533">Programming Language :: Python :: 3</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=538">Programming Language :: Python :: 3.2</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=587">Programming Language :: Python :: 3.4</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=553">Programming Language :: Python :: Implementation :: CPython</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=554">Programming Language :: Python :: Implementation :: PyPy</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=391">Topic :: Scientific/Engineering :: GIS</a>
+   </li>
+   <li>
+    <a href="https://pypi.python.org/pypi?:action=browse&amp;c=423">Topic :: Software Development :: Libraries :: Python Modules</a>
+   </li>
+  </ul>
+ </li>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ <li>
+  <strong>Package Index Owner:</strong>
+  <span>mtigas, uijl</span>
+ </li>
+
+ <li>
+  <strong>Package Index Maintainer:</strong>
+  <span>mtigas</span>
+ </li>
+
+ <li>
+  <strong><a href="https://github.com/edumbill/doap/wiki">DOAP</a> record:</strong>
+  <a href="https://pypi.python.org/pypi?:action=doap&amp;name=geopy&amp;version=1.11.0">geopy-1.11.0.xml</a>
+ </li>
+
+</ul>
+
+
+
+
+
+            </div>
+
+
+          </div>
+          <div id="footer">
+            <div id="credits">
+              <div style="float: left; margin-right: 1em;" id="badges">
+                
+                <a href="https://pypi.python.org/pypi/geopy"><img src="./geopy_docs_files/ipv6-go!-green.svg" alt="ipv6 ready" title="ipv6 ready" border="0"></a><br>
+                <a href="https://pypi.python.org/pypi/geopy"><img src="./geopy_docs_files/http2-go!-green.svg" alt="http2 ready" title="http2 ready" border="0"></a>
+                
+              </div>
+              <div style="float: right" id="donations">
+                <a href="http://www.python.org/about/website">Website maintained by the Python community</a><br>
+                <a href="https://www.fastly.com/" title="Real-time CDN services provided by Fastly">Real-time CDN by Fastly</a> / 
+                <a href="http://developer.rackspace.com/" title="Server hosting by Rackspace Open Source support">Hosting by Rackspace</a><br>
+                <a href="https://aws.amazon.com/s3/" title="Object storage provided by Amazon S3">Object storage by Amazon S3</a> /
+                <a href="http://www.timparkin.co.uk/" title="Design by Tim Parkin, Yorkshire man, photographer and developer">Design by Tim Parkin</a>
+              </div>
+            </div>
+            Copyright © 1990-2016, <a href="http://www.python.org/psf">Python Software Foundation</a><br>
+            <a href="http://www.python.org/about/legal">Legal Statements</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <script type="text/javascript" async="" src="./geopy_docs_files/linkid.js"></script><script async="" src="./geopy_docs_files/analytics.js"></script><script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55961911-1', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+      </script>
+      
+
+      <script type="text/javascript" src="./geopy_docs_files/se-v2.js">
+      </script>
+      <script type="text/javascript">
+        var sp = new StatusPage.page({ page : '2p66nmmycsj3' });
+        sp.summary({
+          // <![CDATA[
+          success: function(data) {
+            var div = document.getElementById('statusdiv');
+            var reports = "</br><h4 id='statusbox'>Status</h4>\n";
+            var outage = 0;
+            var maintenance = 0;
+            for (i in data.incidents) {
+              var incident = data.incidents[i];
+              var message, status = incident.status;
+              if (status === 'scheduled') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' scheduled.</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status === 'in_progress') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' is currently in progress.' + '</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status !== 'resolved' && status !== 'postmortem' && status !== 'completed') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ': ' + incident.status + '</a></li>\n';
+                reports += message;
+                outage += 1;
+              }
+            }
+            for (i in data.scheduled_maintenances) {
+              var incident = data.scheduled_maintenances[i];
+              var message, status = incident.status;
+              if (status === 'scheduled') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' scheduled.</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status === 'in_progress') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ' is currently in progress.' + '</a></li>\n';
+                reports += message;
+                maintenance += 1;
+              } else if (status !== 'resolved' && status !== 'postmortem' && status !== 'completed') {
+                message = '<li><a href="' + incident.shortlink + '">' + incident.name + ': ' + incident.status + '</a></li>\n';
+                reports += message;
+                outage += 1;
+              }
+            }
+            if (outage + maintenance === 0) {
+              reports += "<li><a href='http://status.python.org'>Nothing to report</a></li>";
+            }
+            div.innerHTML=reports;
+            if (outage > 0) {
+              var statusbox = document.getElementById("statusbox");
+              statusbox.style.background = '#FC234A';
+            }
+          }
+          // ]]>
+        });
+      </script>
+
+    
+  
+
+</body></html>
